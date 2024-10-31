@@ -9,7 +9,8 @@ public class Player : MonoBehaviour
     public float rotationSpeed = 100.0F; //Velocidad de rotación
     void Start()
     {
-
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
     // Update is called once per frame
     void Update()
